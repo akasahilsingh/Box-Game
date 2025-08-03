@@ -1,0 +1,58 @@
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#main-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ebf4f5;
+  overflow: hidden;
+}
+
+#box {
+  background-color: #a18dce;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  transition: transform 0.5s ease;
+  border-radius: 5px;
+}
+
+#button-container {
+  display: grid;
+  gap: 5px;
+  width: 100px;
+  height: 100px;
+  grid-template-areas:
+    ". up ."
+    "left down right";
+  background-color: transparent;
+  position: absolute;
+  color: #fff;
+  border: none;
+  z-index: 1;
+  bottom: 50px;
+}
+
+.up {
+  grid-area: up;
+  
+}
+
+.left {
+  grid-area: left;
+}
+
+.right {
+  grid-area: right;
+}
+
+.down {
+  grid-area: down;
+}
