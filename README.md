@@ -16,7 +16,7 @@ A simple and fun directional movement game where you move a box using your **key
 
 ## 🚀 Live Demo
 
-👉 [Play the game here]()
+👉 [Play the game here](https://box-game-one.vercel.app/)
 
 ---
 
@@ -43,5 +43,5 @@ box-game/
 Made with 💻 by [@akasahilsingh](https://github.com/akasahilsingh)
 
 
-👉 [Play the game here](https://your-link.vercel.app)
+👉 [Play the game here](https://box-game-one.vercel.app/)
 
